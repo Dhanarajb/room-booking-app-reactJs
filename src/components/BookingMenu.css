@@ -1,0 +1,100 @@
+/* src/components/BookingSystem.css */
+.booking-system {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    padding: 10px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.tabs button.active {
+    background-color: #aaa;
+}
+
+.tab-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.create-room,
+.book-room,
+.check-booking {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.room-table {
+    margin-top: 20px;
+}
+
+.room-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.room-table th,
+.room-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.room-table th {
+    background-color: #f2f2f2;
+}
+
+.room-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown {
+    height: 33px;
+    border: none;
+}
+
+.booking-details-box {
+    border: 1px solid #ccc;
+    /* Light gray border */
+    padding: 15px;
+    /* Padding inside the box */
+    background-color: #f9f9f9;
+    /* Very light gray background */
+    border-radius: 8px;
+    /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for 3D effect */
+    margin: 10px 0;
+    /* Margin to separate from other elements */
+}
+
+.booking-details-box p {
+    margin: 5px 0;
+    /* Minimal margin between paragraphs */
+}
